@@ -39,3 +39,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         web_server.server_close()
         print("\nСервер остановлен.")
+#конец
