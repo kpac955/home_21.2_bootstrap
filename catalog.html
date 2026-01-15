@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ackerman - Каталог</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        main { display: flex; height: 100vh; }
+        .sidebar { width: 280px; flex-shrink: 0; }
+        .content { flex-grow: 1; overflow-y: auto; padding: 40px; background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+<main>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark sidebar">
+        <span class="fs-4">Меню</span>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li><a href="index.html" class="nav-link text-white">Главная</a></li>
+            <li><a href="catalog.html" class="nav-link active">Каталог</a></li>
+            <li><a href="category.html" class="nav-link text-white">Категории</a></li>
+            <li><a href="contacts.html" class="nav-link text-white">Контакты</a></li>
+        </ul>
+        <hr>
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+               data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+                <strong>Пользователь</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><a class="dropdown-item" href="#">Настройки</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Выйти</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="text-center mb-4">
+            <h1 class="fw-light">Каталог</h1>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                         xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                         focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        <text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle" font-size="24">Thumbnail
+                        </text>
+                    </svg>
+                    <div class="card-body">
+                        <p class="card-text">Краткое описание товара или категории. Этот текст дополняет визуальную
+                            часть и дает пользователю информацию.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Посмотреть</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Изменить</button>
+                            </div>
+                            <small class="text-body-secondary">9 мин</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                         xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                         focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        <text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle" font-size="24">Thumbnail
+                        </text>
+                    </svg>
+                    <div class="card-body">
+                        <p class="card-text">Краткое описание товара или категории. Этот текст дополняет визуальную
+                            часть и дает пользователю информацию.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Посмотреть</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Изменить</button>
+                            </div>
+                            <small class="text-body-secondary">9 мин</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                         xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                         focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        <text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle" font-size="24">Thumbnail
+                        </text>
+                    </svg>
+                    <div class="card-body">
+                        <p class="card-text">Краткое описание товара или категории. Этот текст дополняет визуальную
+                            часть и дает пользователю информацию.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Посмотреть</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Изменить</button>
+                            </div>
+                            <small class="text-body-secondary">9 мин</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                         xmlns="http://www.w3.org/2000/svg" role="img" preserveAspectRatio="xMidYMid slice"
+                         focusable="false">
+                        <rect width="100%" height="100%" fill="#55595c"></rect>
+                        <text x="50%" y="50%" fill="#eceeef" dy=".3em" text-anchor="middle" font-size="24">Thumbnail
+                        </text>
+                    </svg>
+                    <div class="card-body">
+                        <p class="card-text">Краткое описание товара или категории. Этот текст дополняет визуальную
+                            часть и дает пользователю информацию.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Посмотреть</button>
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Изменить</button>
+                            </div>
+                            <small class="text-body-secondary">9 мин</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
